@@ -1,0 +1,28 @@
+
+    body {
+        background: linear-gradient(to right, #dbe685ff, #35a7e5);
+      }
+      
+.stats-content {
+    padding: 0px;
+    margin-top: 30px;
+    font-size: 12px;
+    margin-left: 120px;
+    color: rgb(22, 2, 2);
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 0.5px;
+}
+.tablestyles {
+    border: 1px solid black;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+table {
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    font-family: 'Arial', sans-serif;
+  }
+  

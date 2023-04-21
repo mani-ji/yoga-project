@@ -1,0 +1,92 @@
+
+.home-header {
+    background: white;
+    width: 100vw;
+    height: 90px;
+    
+}
+.home-container {
+    background:linear-gradient(100deg,#08c6446f, #e7f2f8);
+    width: 100%;
+    height: 100vh;
+}
+.header-btn:hover {
+    border-color: white;
+}
+
+/* .home-heading {
+    padding: 0px;
+    margin: 0px;
+    font-size: 48px;
+    margin-left: 550px;
+    color: rgb(22, 2, 2);
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.5px;
+} */
+
+.home-main {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: inline-block;
+    /*margin-top: -1px;*/
+    width: 100vw;
+    height: 60vh;  
+    padding: 40px 5%; 
+    padding-top: 7%; 
+    /*background: linear-gradient(rgba(154, 150, 150, 0.2), rgba(44, 43, 43, 0.8)), url('../../utils/images/yoga_pose1.png') ;*/
+}
+
+.description {
+    flex-basis: 35%;
+    font-size: 300px;
+    color: black;
+    text-align: left;
+    /*margin: 0px;*/
+    padding-top: 10%;
+    margin-left: 20px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.5px;
+}
+.home-img{
+  flex-basis: 55%;
+  padding-top: 3%;
+}
+
+
+
+.btn{
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 10px 20px 10px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(11, 4, 4);
+    font-size: 24px;
+    border-color: #899093;
+    border-radius: 8px;
+    border-width: 4px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: rgba(228, 226, 221, 0.2);
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+#about-btn {
+    float: right;
+}
+#about-btn:hover {
+    border-color: white;
+    background-color: white;
+    color: black;
+}
+#about-btn:focus {
+    box-shadow: none;
+    background: white;
+    border-color: white;
+    color: black;
+}

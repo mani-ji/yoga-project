@@ -1,0 +1,104 @@
+.yoga-container {
+    background: linear-gradient(100deg, #dbe685ff, #35a7e5);
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.home-header1 {
+    background: linear-gradient(100deg, #dbe685ff, #35a7e5);
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+}
+.home-heading {
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    margin-left: 400px;
+    color: rgb(22, 2, 2);
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.5px;
+}
+.secondary-btn {
+    position: relative;
+    left: 48%;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border-color: rgba(125, 125, 125, 0.1);
+    border-width: 5px;
+    background-color: rgba(0, 0, 0,0.2);
+    box-shadow: 0px 0px 0px 0px;
+    color: white;
+}
+
+.secondary-btn:hover {
+    background-color: rgba(0, 0, 0,0.4);
+}
+
+.starting-contdown {
+    margin: auto;
+    border: 10px solid rgba(125, 125, 125, 0.5);
+    width: max-content;
+    padding: 10px 30px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0);
+    position: relative;
+    top: 45%;
+}
+.starting-contdown h1 {
+    color: white;
+}
+.pose-img {
+    position: absolute;
+    right: 120px;
+    top: 100px;
+    width: 500px;
+    aspect-ratio: 1;
+}
+
+.performance-container {
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    left: 150px;
+}
+
+
+.pose-performance {
+    margin: 10px 10px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px;
+}
+.pose-performance h4 {
+    color: rgba(0,0,0,0.7);
+    font-family: 'Arial',sans-serif;
+}
+.labeldata {
+    margin-left: 600px;
+    font-family: 'Arial',sans-serif;
+    font-size: 30px;
+    padding: 3px 5px 3px 5px;
+    border: 5px;
+    background-color: white;
+}
+
+#webcam {
+    transform: rotateY(180deg);
+}
+
+#my-canvas {
+    transform: rotateY(180deg);
+}
+#report-btn {
+    padding: 3px 8px 3px 8px;
+    border-radius: 3px;
+    border-width: 3px;
+}
+#logout-btn {
+    padding: 3px 8px 3px 8px;
+    border-radius: 3px;
+    border-width: 3px;
+}
